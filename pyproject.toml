@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mini-projeto-web-api"
+version = "0.1.0"
+description = ""
+authors = ["dolivmorais <dolivmorais@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+streamlit = "^1.37.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
